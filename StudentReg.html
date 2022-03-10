@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Insert title here</title>
+</head>
+<style>
+    .form {
+        margin-bottom: 10px;
+        margin: 50px 30px 40px 70px;
+        color: red;
+      
+    }
+
+    label {
+        display: inline-block;
+        width: 110px;
+        height: 30px;
+        text-align: left;
+    }
+
+    input {
+        width: 240px;
+    }
+    .sub{
+        padding: 10px;
+    border-radius: 25px;
+    margin-left: 200px;
+    background-color: blue;
+    color: white; 
+    width: 82px;
+    }
+    h1{
+        align-items: center;
+        color: blueviolet;
+    }
+    .backgrnd{
+        background-image: url(image1.jpg);
+        background-repeat: no-repeat;
+        background-attachment: fixed;
+    }
+</style>
+
+<body class="backgrnd">
+  <center><h1 style="color: yellow;">Student Registration Form</h1></center>
+    <div>
+        <form>
+            <table>
+                <td>
+                    <div class="form">
+                        <Label>Name :</Label>
+                        <span><input type="text" placeholder="Enter Your full name"></span><br>
+                        <label>Father's Name :</label>
+                        <span><input type="text" placeholder="Enter your Father name"></span><br>
+                        <label for="">Mother's Name :</label>
+                        <span><input type="text" placeholder="Enter your mother name"></span><br>
+                        <label for="">mobile Number :</label>
+                        <span><input type="text"></span><br>
+                        <label>Email :</label>
+                        <span><input type="email" placeholder="lakkappa@gmail.com"></span><br>
+                        <label for="gender">Gender :</label>
+                        <select name="gender">
+                            <option value="none" selected>Gender</option>
+                            <option value="male">Male</option>
+                            <option value="female">Female</option>
+                            <option value="other">other</option>
+                        </select><br>
+                        <label>Date of Birth :</label>
+                        <span><input type="date"></span><br>
+                        <label>Address :</label>
+                        <textarea name="Address" id="home" cols="30" rows="5"></textarea><br>
+                    </div>
+                </td>
+            </table>
+            <button class="sub">Submit</button>
+        </form>
+    </div>
+</body>
+</html>

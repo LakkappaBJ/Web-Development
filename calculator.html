@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Calculator</title>
+</head>
+
+<style>
+input {
+	padding: 10px;
+	font-size: 10pxs; 
+}
+</style>
+<script type="text/javascript" src="Myhome.js"></script>
+<body>
+	<form>
+	<input type="number" value="" id="number1" placeholder="number1"><br><br>
+	<input type="number" value="" id="number2" placeholder="number2"><br><br>
+	<input type="button" value="*" onclick="mult()">
+	<input type="button" value="+" onclick="add()">
+	<input type="button" value="-" onclick="sub()">
+	<input type="button" value="/" onclick="division()">
+	<input type="button" value="avg" onclick="avg()">
+<input type="button" value="Mod" onclick="mod()"><br><br>
+	<span id="result"><input type="text" id="result" placeholder="Total"></span>
+	</form>
+
+</body>
+</html>
